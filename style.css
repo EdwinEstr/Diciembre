@@ -1,0 +1,118 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #f5f5f5;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(253 12 12 / 20%);
+}
+
+h1 {
+    color: #ff3366;
+    font-size: 24px;
+}
+
+.image-gallery {
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 20px 0;
+    justify-content: center;
+    margin-left: 10px;
+    margin-block: 34px;
+    margin-top: 37px;
+}
+
+.image-gallery img {
+    
+    height: 161px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    margin-left: 19px;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 18px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+ 
+/* Estilos adicionales para los nombres de los meses */
+.image-gallery span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#Octubre {
+   
+    border: 2px solid rgb(2, 99, 6);
+}
+
+#Noviembre {
+   
+    border: 2px solid red;
+}
+
+#Diciembre {
+   
+    border: 2px solid red;
+}
+
+#Julio {
+   
+    border: 2px solid rgb(240, 188, 237);
+}
+
+#Mayo{
+   
+    border: 2px solid rgb(15, 15, 15);
+}
+
+#Septiembre {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#Abril {
+    border: 2px solid rgb(166, 255, 0);
+}
+
+#Marzo {
+    border: 2px solid rgb(227, 228, 229);
+}
+
+/*45*/
+/* Estilos para la clase mes-container */
+.mes-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilos para las imágenes de los meses */
+
+/* Estilos para superponer los nombres de los meses */
+.mes-container span {
+    position: absolute;
+    bottom: 172px; /* Puedes ajustar la posición vertical según sea necesario */
+    left: 59%; /* Coloca el texto en el centro horizontal */
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.7); /* Fondo para hacer legible el texto */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
